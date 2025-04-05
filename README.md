@@ -1,66 +1,57 @@
-# Multi-AI-Agents-Examples
-Multi AI Agents Examples
-This repository showcases real-world examples of using multiple AI agents working together to solve practical problems. Built using frameworks like CrewAI, these projects demonstrate how automation and AI can simplify tasks in business, education, content creation, and more.
+# Multi AI Agents Examples
 
-📌 What This Repo Offers
-A growing collection of multi-agent AI automation projects.
+This repository contains practical and educational examples of using **multiple AI agents** working together to complete tasks. These examples are built using frameworks like **CrewAI** and focus on solving real-world problems through automation and collaboration between agents.
 
-Step-by-step Jupyter Notebooks with well-commented code and explanations.
+## 🔍 Overview
 
-Real-world use cases designed for students, freelancers, and professionals.
+The goal of this repository is to:
 
-Integration with free or local LLMs (like Gemini, DeepSeek) — no paid API required.
+- Demonstrate real-world use cases of multi-agent AI systems.
+- Provide well-documented Jupyter Notebooks for learning and hands-on practice.
+- Showcase how to use local or free LLMs (e.g., DeepSeek, Gemini) without paid APIs.
+- Explore how AI agents can take roles like reading, summarizing, analyzing, recommending, and communicating.
 
-🧠 Current Examples
-Each example uses multiple agents with specific roles, working together to complete a task.
+## 🧠 Example Projects
 
-Contract Review Workflow
+1. **Contract Review Workflow**
+   - Contract Reader: Extracts text using OCR and summarizes.
+   - Risk Assessor: Detects clauses that might pose legal or compliance risks.
+   - Recommendation Agent: Suggests edits based on internal policy.
+   - Email Agent: Sends a compiled report to the client automatically.
 
-Reads contracts using OCR
+> More examples will be added frequently — covering business workflows, document analysis, report generation, and content pipelines.
 
-Assesses risk based on legal patterns
+## 🚀 Getting Started
 
-Suggests edits according to policy
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/Multi-AI-Agents-Examples.git
+   cd Multi-AI-Agents-Examples
+   ```
 
-Sends a report via email
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-More examples coming soon — invoice processing, student report generation, business automation, etc.
+3. Open the Jupyter Notebooks and run step-by-step cells to see how each multi-agent system works.
 
-🛠 How to Use
-Clone the repository:
+## ⚙️ Requirements
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/Multi-AI-Agents-Examples.git
-cd Multi-AI-Agents-Examples
-Open any project folder and launch the Jupyter Notebook (.ipynb).
+- Python 3.10+
+- CrewAI
+- Local LLM interface (e.g., Ollama, llama-cpp)
+- OCR library (e.g., pytesseract)
+- Langchain (optional for memory/tools)
 
-Follow the instructions step by step — each notebook is designed for learning and hands-on use.
+## 👥 Who This Is For
 
-✅ Requirements
-Install the basics before running:
+- Learners exploring GenAI, Langchain, and agentic workflows
+- Freelancers automating document or client tasks
+- Developers building task-oriented agent pipelines
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Some notebooks might require:
+## 🤝 Contribute
 
-CrewAI
+Have ideas or improvements? Feel free to fork the repo, add your example, and open a pull request.
 
-OCR tools (like pytesseract)
-
-Free or local LLMs (like DeepSeek, Gemini via llama-cpp, ollama, etc.)
-
-📈 Who Is This For?
-AI learners who want to build project-based skills
-
-Freelancers looking to automate client work
-
-Developers building tools for real-world workflows
-
-Anyone interested in AI agents and automation
-
-📬 Contributions Welcome
-Have an idea for a new multi-agent workflow? Feel free to fork, create a new folder, and raise a PR!
+Let’s build better AI automation workflows together!
